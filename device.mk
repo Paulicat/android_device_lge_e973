@@ -44,6 +44,13 @@ PRODUCT_COPY_FILES += \
     device/lge/e973/ramdisk/fstab.e973:root/fstab.e973 \
     device/lge/e973/Video_Game.ogg:/system/media/audio/ringtones/Video_Game.ogg \
     device/lge/e973/Cloud.ogg:/system/media/audio/notifications/Cloud.ogg \
+    device/lge/e973/IMD_Delete.ogg:/system/media/audio/ui/IMD_Delete.ogg \
+    device/lge/e973/IMD_Spacebar.ogg:/system/media/audio/ui/IMD_Spacebar.ogg \
+    device/lge/e973/IMD_Standard.ogg:/system/media/audio/ui/IMD_Standard.ogg \
+    device/lge/e973/KeypressDelete.ogg:/system/media/audio/ui/KeypressDelete.ogg \
+    device/lge/e973/KeypressReturn.ogg:/system/media/audio/ui/KeypressReturn.ogg \
+    device/lge/e973/KeypressSpacebar.ogg:/system/media/audio/ui/KeypressSpacebar.ogg \
+    device/lge/e973/KeypressStandard.ogg:/system/media/audio/ui/KeypressStandard.ogg
 
 # These are the hardware-specific features
 PRODUCT_COPY_FILES += \
