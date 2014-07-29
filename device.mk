@@ -41,9 +41,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_COPY_FILES += \
     device/lge/e973/ramdisk/init.e973.rc:root/init.e973.rc \
     device/lge/e973/ramdisk/ueventd.e973.rc:root/ueventd.e973.rc \
-    device/lge/e973/ramdisk/fstab.e973:root/fstab.e973 \
+    device/lge/e973/ramdisk/fstab.e973:root/fstab.e973
+
+# Sounds
+PRODUCT_COPY_FILES += \
     device/lge/e973/Video_Game.ogg:/system/media/audio/ringtones/Video_Game.ogg \
     device/lge/e973/Cloud.ogg:/system/media/audio/notifications/Cloud.ogg \
+    device/lge/e973/Promise.ogg:/system/media/audio/notifications/Promise.ogg \
     device/lge/e973/IME_Delete.ogg:/system/media/audio/ui/IME_Delete.ogg \
     device/lge/e973/IME_Spacebar.ogg:/system/media/audio/ui/IME_Spacebar.ogg \
     device/lge/e973/IME_Standard.ogg:/system/media/audio/ui/IME_Standard.ogg \
