@@ -45,16 +45,20 @@ PRODUCT_COPY_FILES += \
 
 # Sounds
 PRODUCT_COPY_FILES += \
-    device/lge/e973/Video_Game.ogg:/system/media/audio/ringtones/Video_Game.ogg \
-    device/lge/e973/Cloud.ogg:/system/media/audio/notifications/Cloud.ogg \
-    device/lge/e973/Promise.ogg:/system/media/audio/notifications/Promise.ogg \
-    device/lge/e973/IME_Delete.ogg:/system/media/audio/ui/IME_Delete.ogg \
-    device/lge/e973/IME_Spacebar.ogg:/system/media/audio/ui/IME_Spacebar.ogg \
-    device/lge/e973/IME_Standard.ogg:/system/media/audio/ui/IME_Standard.ogg \
-    device/lge/e973/KeypressDelete.ogg:/system/media/audio/ui/KeypressDelete.ogg \
-    device/lge/e973/KeypressReturn.ogg:/system/media/audio/ui/KeypressReturn.ogg \
-    device/lge/e973/KeypressSpacebar.ogg:/system/media/audio/ui/KeypressSpacebar.ogg \
-    device/lge/e973/KeypressStandard.ogg:/system/media/audio/ui/KeypressStandard.ogg
+    device/lge/e973/prebuilt/Video_Game.ogg:/system/media/audio/ringtones/Video_Game.ogg \
+    device/lge/e973/prebuilt/Cloud.ogg:/system/media/audio/notifications/Cloud.ogg \
+    device/lge/e973/prebuilt/Promise.ogg:/system/media/audio/notifications/Promise.ogg \
+    device/lge/e973/prebuilt/IME_Delete.ogg:/system/media/audio/ui/IME_Delete.ogg \
+    device/lge/e973/prebuilt/IME_Spacebar.ogg:/system/media/audio/ui/IME_Spacebar.ogg \
+    device/lge/e973/prebuilt/IME_Standard.ogg:/system/media/audio/ui/IME_Standard.ogg \
+    device/lge/e973/prebuilt/KeypressDelete.ogg:/system/media/audio/ui/KeypressDelete.ogg \
+    device/lge/e973/prebuilt/KeypressReturn.ogg:/system/media/audio/ui/KeypressReturn.ogg \
+    device/lge/e973/prebuilt/KeypressSpacebar.ogg:/system/media/audio/ui/KeypressSpacebar.ogg \
+    device/lge/e973/prebuilt/KeypressStandard.ogg:/system/media/audio/ui/KeypressStandard.ogg
+
+# Prebuilt libcyanogen-dsp.so
+PRODUCT_COPY_FILES += \
+	device/lge/e973/prebuilt/libcyanogen-dsp.so:system/lib/soundfx/libcyanogen-dsp.so
 
 # These are the hardware-specific features
 PRODUCT_COPY_FILES += \
